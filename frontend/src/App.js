@@ -25,6 +25,7 @@ import './App.css';
 // export default App;
 
 export const App = () => {
+  console.log("test");
   return (
     <div className="App">
       <header className="App-header">
