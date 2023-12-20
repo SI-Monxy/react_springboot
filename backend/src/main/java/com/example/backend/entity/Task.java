@@ -1,6 +1,6 @@
 package com.example.backend.entity;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,8 +16,8 @@ public class Task {
     private Long id;
     private String title;
     private String description;
-    private Date deadline;
+    private LocalDateTime deadline;
     private String status;
-    private Date createdAt;
-    private Date updatedAt;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 }
